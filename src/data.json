@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "title": "What services does Mediwell AI Solutions offer?",
+      "content": "Mediwell AI Solutions provides customized Gen-AI-based professional services and SaaS solutions tailored to the patient management needs of medical and wellness companies. Our offerings include workflow analysis, SaaS solution development, implementation support, and ongoing maintenance to enhance productivity and efficiency."
+    },
+    {
+      "id": "2",
+      "title": "What makes Mediwell AI Solutions different from other AI service providers?",
+      "content": "Every practice is looking at a different set of challenges, and is looking to apply AI to deliver meaningful outputs — such as in-time feedback and prompting for practioners during a phone call, driving prompt actionable insights from continuous data such as CGM, support for multiple languages, and making sense of tons of written communication such as emails, chats and patient histories -- all using generative AI. We meet practices where there are, consult with them on their workflows, and provide highly customized solutions. We combine advanced AI technologies with deep industry knowledge to deliver solutions that significantly improve productivity and operational efficiency for medical and wellness professionals."
+    },
+    {
+      "id": "3",
+      "title": "Can I see a demo of your solutions?",
+      "content": "Yes, we offer a demo to showcase our solutions and how they can benefit your organization. You can request a demo by contacting us through our website or by emailing directly to kartik@spyn.ai"
+    },
+    {
+      "id": "4",
+      "title": "How secure are your AI solutions?",
+      "content": "We prioritize the security and privacy of your health data. Our solutions comply with industry standards like HIPAA and GDPR, and we implement strong security measures such as encryption, secure access controls, and regular security audits to protect against unauthorized access and breaches. Before we send any data to the LLM, we mask any information that's propreitory, sensitive or confidential. Also, we enforce a zero-retention policy on our systems, so that data is never stored outside of our client systems."
+    },
+    {
+      "id": "5",
+      "title": "Can your solutions integrate with our existing systems?",
+      "content": "Yes, our solutions are designed to integrate seamlessly with your existing systems and workflows. We work with you to ensure compatibility and smooth integration, minimizing disruption to your operations."
+    },
+    {
+        "id": "6",
+        "title": "What kind of support do you provide after implementation?",
+        "content": "We provide ongoing support to ensure the smooth operation of our solutions. Our support includes troubleshooting and fixing bugs with a 24 hour SLA."
+      }
+  ]
