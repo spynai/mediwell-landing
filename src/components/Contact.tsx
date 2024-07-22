@@ -35,8 +35,12 @@ const ContactUs = () => {
                 autoClose: 3000,
                 closeOnClick: true
             });
-          }).catch((error) => {
-            console.log(error);
+          }).catch((_) => {
+            toast.success('Failed to send request email! Try again later!', {
+                position: 'top-right',
+                autoClose: 3000,
+                closeOnClick: true
+            });
           });
     };
 
