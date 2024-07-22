@@ -11,6 +11,14 @@ export default function Footer() {
                 {}
             </div>
             <div className="flex flex-row items-center gap-1">
+                <Link
+                    href="/privacy"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className={`text-md mx-1 flex gap-1 rounded-full border-b-[1px] border-b-white/10 px-6 py-3 [&>*]:my-auto`}
+                >
+                    <div className="font-gilroy text-white">Privacy</div>
+                </Link>
                 <span className="mx-4 text-white">
                     © 2024 Spyn, Inc. All rights reserved.
                 </span>

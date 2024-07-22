@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -37,7 +36,7 @@ export default function Home() {
         content: string;
     }) => {
         return (
-            <div className="flex h-[250px] w-[30%] flex-col items-center gap-6 rounded-md border-2 bg-white border-stone-300 p-6">
+            <div className="flex min-h-[250px] w-[30%] flex-col items-center gap-6 rounded-md border-2 bg-white border-stone-300 p-6">
                 <div className="flex w-[30px] text-xl [&>*]:mx-auto">
                     {icon}
                 </div>
@@ -53,7 +52,7 @@ export default function Home() {
                 <title>Mediwell Landing Page</title>
             </Head>
             <>
-                <h1 className="m-4 font-gilroy text-center text-5xl font-bold">
+                <h1 id='demo' className="m-4 font-gilroy text-center text-5xl font-bold">
                     AI-powered SaaS for Advanced CRM in Healthcare and Wellness
                 </h1>
                 <h3 className="m-4 w-2/3 text-center font-montserrat text-3xl font-thin">
@@ -96,7 +95,7 @@ export default function Home() {
                 </div>
             </>
             <>
-                <h1 className="mt-4 font-gilroy text-4xl font-bold">
+                <h1 id='faqs' className="mt-4 font-gilroy text-4xl font-bold">
                     Frequently asked questions
                 </h1>
                 <h3 className="mb-4 w-2/3 text-center font-montserrat text-2xl font-thin">
@@ -105,7 +104,7 @@ export default function Home() {
                 <Content></Content>
             </>
             <>
-                <h1 className="mt-4 font-gilroy text-4xl font-bold">
+                <h1 id='contact' className="mt-4 font-gilroy text-4xl font-bold">
                     Contact Us
                 </h1>
                 <h3 className="mb-4 w-2/3 text-center font-montserrat text-2xl font-thin">

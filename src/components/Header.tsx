@@ -25,19 +25,19 @@ export default function Header() {
                     <div className="font-gilroy">Home</div>
                 </Link>
                 <Link
-                    href="/"
+                    href="#demo"
                     className={`text-md mx-1 flex gap-1 rounded-full border-b-[1px] border-b-white/10 px-6 py-3 hover:bg-blue-600 hover:text-white [&>*]:my-auto`}
                 >
                     <div className="font-gilroy">Demo</div>
                 </Link>
                 <Link
-                    href="/"
+                    href="#faqs"
                     className={`text-md mx-1 flex gap-1 rounded-full border-b-[1px] border-b-white/10 px-6 py-3 hover:bg-blue-600 hover:text-white [&>*]:my-auto`}
                 >
                     <div className="font-gilroy">FAQs</div>
                 </Link>
                 <Link
-                    href="/"
+                    href="#contact"
                     className={`text-md mx-1 flex gap-1 rounded-full border-b-[1px] border-b-white/10 px-6 py-3 hover:bg-blue-600 hover:text-white [&>*]:my-auto`}
                 >
                     <div className="font-gilroy">Contact Us</div>
