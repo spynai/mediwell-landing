@@ -16,7 +16,7 @@ export default function Home() {
             <iframe
                 width="768"
                 height="432"
-                src="https://www.loom.com/embed/60713ae899934c6aa32e658ae4170e4f?sid=7fade96c-5a32-4c6a-bb8a-a445a96fe7c6" 
+                src="https://www.loom.com/embed/60cf33108be24cafb59753233350ae20?sid=64111b01-ef2b-4451-b231-79c36a6d42cf" 
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
